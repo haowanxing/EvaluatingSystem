@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="schedule-console" version="3.0">
+  <display-name></display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FileUploadServlet</servlet-name>
+    <servlet-class>dao.FileUploadServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FileUploadServlet</servlet-name>
+    <url-pattern>/FileUploadServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FileSystem</servlet-name>
+    <servlet-class>dBassiant.FileSystem</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FileSystem</servlet-name>
+    <url-pattern>/FileSystem</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ExcelUpDate</servlet-name>
+    <servlet-class>dao.ExcelUpDate</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ExcelUpDate</servlet-name>
+    <url-pattern>/ExcelUpDate</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>HL</servlet-name>
+    <servlet-class>dao.UpXml</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>HL</servlet-name>
+    <url-pattern>/manager_web/HL</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>saveXml</servlet-name>
+    <servlet-class>servletHL.SaveXmlUrl</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>saveXml</servlet-name>
+    <url-pattern>/saveXml</url-pattern>
+  </servlet-mapping>
+  
+  
+  <welcome-file-list>
+    <welcome-file>Login.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

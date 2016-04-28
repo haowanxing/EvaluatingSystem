@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<page>
+	<box>
+		<socia title="pjiafen" name="品德加分" maxscore="20">
+			<rule type="rela">awardlv</rule>
+			<rule type="rela">activelv</rule>
+			<rule type="single">yiwuxianxue</rule>
+			<rule type="single">liyihuodong</rule>
+			<rule type="single">yiwugongyi</rule>
+		</socia>
+		
+		<socia title="pkoufen"  name="品德扣分" maxscore="0">
+			<rule type="single">kuangke</rule>
+			<rule type="single">buguisu</rule>
+			<rule type="single">chidao</rule>
+			<rule type="single">daiqian</rule>
+			<rule type="single">kuangcao</rule>
+			<rule type="single">piping</rule>
+			<rule type="single">weifanxiao</rule>
+			<rule type="single">weisheng</rule>
+			<rule type="single">wuguquexi</rule>
+			<rule type="single">weigui</rule>
+			<rule type="single">jinggao</rule>
+			<rule type="single">yzjinggao</rule>
+			<rule type="single">jiguo</rule>
+			<rule type="single">liuxiao</rule>
+			<rule type="single">zishi</rule>
+		</socia>
+		
+		<socia title="skill" name="技能加分" maxscore="50">
+			<rule type="rela">cet</rule>
+			<rule type="rela">computerlv</rule>
+			<rule type="rela">zigelv</rule>
+		</socia>
+		
+		<socia title="keyan" name="科技发明" maxscore="50">
+			<rule type="rela">keyantype</rule>
+		</socia>
+		
+		<socia title="job" name="社会工作" maxscore="50">
+			<rule type="rela">joblv</rule>
+		</socia>
+		
+		<socia title="sociashijian" name="社会实践" maxscore="50">
+			<rule type="rela">sociaposition~socialv</rule>
+		</socia>
+		
+		<socia title="teen" name="青少年志愿者" maxscore="50">
+			<rule type="rela">teenlv~tactlv</rule>
+		</socia>
+		
+		<socia title="wentihuodong" name="文体活动" maxscore="50">
+			<rule type="rela">tiyulv~tiyuad</rule>
+			<rule type="relb">wenxuetype*wenxuenum</rule>
+		</socia>
+		
+		<socia title="subjctpk" name="学科竞赛" maxscore="50">
+			<rule type="rela">pkaward~pklv~pkelse</rule>
+		</socia>
+		
+		<socia title="wenhuahuodong" name="校园文化活动" maxscore="50">
+			<rule type="rela">wenhuaaward~wenhualv~wenhuaelse</rule>
+		</socia>
+		
+		<socia title="xueshulunwen" name="学术论文" maxscore="50">
+			<rule type="rela">luwenlv</rule>
+		</socia>
+		
+		<socia title="zizhucy" name="自主创业" maxscore="2">
+			<rule type="single">chuangyeziping</rule>
+		</socia>
+	</box>
+</page>

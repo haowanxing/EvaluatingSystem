@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<page>
+	<box>
+		<socia title="pjiafen" name="品德加分" maxcol="3">
+			<item relevance="1" type="text" tips="" name="awardn" default="" maxlen="" size="" unit="" more="true" >获奖名称</item>
+			<item relevance="1" type="select" name="awardlv" default="无|国家级|省级|校级|院级" size="" more="true" >等级</item> 
+			<item relevance="2" type="text" tips="" name="activen" default="" maxlen="" size="" unit="" more="true" >活动名称</item>
+			<item relevance="2" type="select" name="activet" default="无|课外科技活动竞赛|大学生科研项目建立|社会实践活动|校园文化活动|学校指定安排的其他活动" size="" more="true" >活动类型</item> 
+			<item relevance="2" type="select" name="activelv" default="无|校级|院级" size="" more="true" >等级</item>
+			<item relevance="3" type="text" tips="" name="yiwuxianxue" default="0" maxlen="2" size="2" unit="次">义务献血</item>
+			<item relevance="3" type="text" tips="" name="liyihuodong" default="0" maxlen="2" size="2" unit="次">参加礼仪活动</item>
+			<item relevance="3" type="text" tips="" name="yiwugongyi" default="0" maxlen="2" size="2" unit="次">参加义务、公益、青年志愿者活动</item>
+		</socia>
+		
+		<socia title="pkoufen"  name="品德扣分" maxcol="2">
+			<item relevance="1" type="text" tips="" name="kuangke" default="0" maxlen="2" size="2" unit="次">旷课</item>
+			<item relevance="1" type="text" tips="" name="buguisu" default="0" maxlen="2" size="2" unit="次">未请假夜不归宿</item>
+			<item relevance="1" type="text" tips="" name="chidao" default="0" maxlen="2" size="2" unit="次">早操迟到</item>
+			<item relevance="1" type="text" tips="" name="daiqian" default="0" maxlen="2" size="2" unit="次">早操代签</item>
+			<item relevance="1" type="text" tips="" name="kuangcao" default="0" maxlen="2" size="2" unit="次">无故旷操</item>
+			<item relevance="1" type="text" tips="" name="piping" default="0" maxlen="2" size="2" unit="次">院通报批评</item>
+			<item relevance="1" type="text" tips="" name="weifanxiao" default="0" maxlen="2" size="2" unit="次">节假日未请假离校或未按时返校</item>
+			<item relevance="1" type="text" tips="" name="weisheng" default="0" maxlen="2" size="2" unit="次">宿舍卫生评比排名倒数5%</item>
+			<item relevance="1" type="text" tips="" name="wuguquexi" default="0" maxlen="2" size="2" unit="次">无故缺席院集体活动、班团委</item>
+			<item relevance="1" type="text" tips="" name="weigui" default="0" maxlen="2" size="2" unit="次">违规用大功率电器、私拉电线</item>
+			<item relevance="1" type="text" tips="" name="jinggao" default="0" maxlen="2" size="2" unit="次">考核期间受警告处分</item>
+			<item relevance="1" type="text" tips="" name="yzjinggao" default="0" maxlen="2" size="2" unit="次">严重警告处分</item>
+			<item relevance="1" type="text" tips="" name="jiguo" default="0" maxlen="2" size="2" unit="次">记过处分</item>
+			<item relevance="1" type="text" tips="" name="liuxiao" default="0" maxlen="2" size="2" unit="次">留校观察</item>
+			<item relevance="1" type="text" tips="" name="zishi" default="0" maxlen="2" size="2" unit="次">公共场合滋事、扰乱公共秩序、乱扔物品、乱烧物品等造不良后果</item>
+		</socia>
+		
+		<socia title="skill" name="技能加分" maxcol="3">
+			<item relevance="1" type="radio" name="cet" default="无|大一CET-4|大二CET-4、6" size="" >CET过级</item>
+			<item relevance="2" type="radio" name="computerlv" default="无|二级|三级|四级" size="" >计算机等级考试</item>
+			<item relevance="3" type="txt" name="msg" style="font-size:14px; color:#8E8C8C;" size="" >劳动技术鉴定部门颁发或各类专业认定的专业技能资格证书：</item>
+			<item relevance="4" type="text" tips="" name="zigename" default="" maxlen="" size="" unit="">名称</item>
+			<item relevance="4" type="select" name="zigelv" default="无|无等级|初级|中级|高级" size="" >等级</item> 
+			<item relevance="4" type="file" name="zigefile" default="" size="" >附件</item> 
+		</socia>
+		
+		<socia title="keyan" name="科技发明" maxcol="3">
+			<item relevance="1" type="select" name="keyantype" default="无|发明专利|实用专利|外观设计专利" size="" >类型</item>
+			<item relevance="1" type="text" tips="" name="keyanrenshu" default="0" maxlen="2" size="2" unit="人" >参与人数</item>
+			<item relevance="1"	type="checkbox" name="keyanfirstman" default="" size="" >第一作者</item>
+			<item relevance="2" type="txt" name="msg" style="" size="" >专利号以及专利名称描述:</item>
+			<item relevance="3" type="textarea" name="zhuanlimiaoshu" default="" rows="5" cols="35" maxlen="" size="" unit=""> </item>
+		</socia>
+		
+		<socia title="job" name="社会工作" maxcol="3">
+			<item relevance="1" type="txt" name="msg" style="font-size:14px; color:#8E8C8C;" size="" >请如实准确填写以下信息以便审核</item>
+			<item relevance="2" type="text" tips="" name="zhiwei" default="" maxlen="" size="" unit="" more="true" >职位</item>
+			<item relevance="2" type="select" name="joblv" default="无|班级干部|年级干部|院级干部" size="" more="true" >等级</item>
+			<item relevance="2" type="text" tips="" name="jobziping" default="0" maxlen="2" size="2" unit="" more="true" >自评分</item>
+			<item relevance="3" type="txt" name="msg" style="font-size:14px; color:#8E8C8C;" size="" > </item>
+		</socia>
+		
+		<socia title="sociashijian" name="社会实践" maxcol="3">
+			<item relevance="1" type="txt" name="msg" style="font-size:14px; color:#8E8C8C;" size="" >请如实准确填写以下信息以便审核（只填写上一学年的活动）</item>
+			<item relevance="2" type="text" tips="" name="sociaobj" default="" maxlen="" size="" unit="" >项目</item>
+			<item relevance="2" type="select" name="sociaposition" default="无|成员|负责人|先进个人" size="" >获奖级别</item>
+			<item relevance="2" type="select" name="socialv" default="无|国家级|省级|市级|校级|院级" size="" >级别</item>
+			<item relevance="3" type="txt" name="msg" style="font-size:14px; color:#8E8C8C;" size="" > </item>
+		</socia>
+		
+		<socia title="teen" name="青少年志愿者" maxcol="3">
+			<item relevance="1" type="txt" name="msg" style="font-size:14px; color:#8E8C8C;" size="" >请如实准确填写以下信息以便审核</item>
+			<item relevance="2" type="text" tips="" name="teenname" default="" maxlen="" size="" unit="" >活动名称</item>
+			<item relevance="2" type="select" name="tactlv" default="无|成员|负责人|先进个人" size="" >获奖级别</item>
+			<item relevance="2" type="select" name="teenlv" default="无|国家级|省级|市级|校级|院级" size="" >活动等级</item>
+		</socia>
+		
+		<socia title="wentihuodong" name="文体活动" maxcol="5">
+			<item relevance="1" type="txt" name="msg" style="font-size:14px; color:#8E8C8C;" size="" >体育活动加分表</item>
+			<item relevance="2" type="text" tips="" name="tiyuname" default="" maxlen="" size="" unit="" >活动名称</item>
+			<item relevance="2" type="select" name="tiyutype" default="无|运动会比赛|体育比赛|文艺比赛" size="" >类型</item>
+			<item relevance="2" type="select" name="tiyulv" default="无|国家级|省级|市级|校级|院级" size="" >级别</item>
+			<item relevance="2" type="select" name="tiyuad" default="无|一等奖|二等奖|三等奖|鼓励奖" size="" >奖次</item>
+			<item relevance="2" type="checkbox" name="tuandui" default="" size="" >团队趣味项目</item>
+			<item relevance="3" type="txt" name="msg" style="font-size:14px; color:#8E8C8C;" size="" > 发表文学、艺术、新闻作品加分项（要求：500字以上）</item>
+			<item relevance="4" type="checkbox" name="jizhetuan" default="" size="" >担任记者团学生干部</item>
+			<item relevance="5" type="select" tips="" name="wenxuetype" default="无|副省级以上|地市级报刊|非校刊记者或通讯员在校刊、学工通讯、大学四年发表相关通讯或者新闻+0.3分/篇|在广播台播发新闻0.2分/篇" size="200" >类型</item>
+			<item relevance="5" type="text" tips="" name="wenxuenum" default="" maxlen="2" size="2" unit="" >数量</item>
+			<item relevance="5" type="textarea" name="wenxueshuoming" default="在这里填写相关说明" rows="5" cols="35" maxlen="" size="" unit=""> </item>
+		</socia>
+		
+		<socia title="subjctpk" name="学科竞赛" maxcol="4">
+			<item relevance="1" type="text" tips="如：数学建模、挑战杯等等" name="pkname" default="" maxlen="" size="" unit="" >竞赛名称</item>
+			<item relevance="1" type="select" name="pkaward" default="无|金奖,一等奖,第一名|银奖,二等奖,第二名|铜奖,三等奖,第三名|优秀奖,不分等级表彰" size="" >奖项</item>
+			<item relevance="1" type="select" name="pklv" default="无|国家级|省市级|校级|院级" size="" >级别</item>
+			<item relevance="1" type="select" name="pkelse" default="无|其他|负责人|排名2~3" size="" >其他</item>
+		</socia>
+		
+		<socia title="wenhuahuodong" name="校园文化活动" maxcol="4">
+			<item relevance="1" type="txt" name="msg" style="font-size:16px; color:#8E8C8C;" size="" >请如实准确填写以下信息以便审核</item>
+			<item relevance="2" type="select" name="wenhuatype" default="无|征文|论文评比|辩论赛" size="" >类别</item>
+			<item relevance="2" type="select" name="wenhuaaward" default="无|金奖,一等奖,第一名|银奖,二等奖,第二名|铜奖,三等奖,第三名|优秀奖,不分等级表彰" size="" >奖项</item>
+			<item relevance="2" type="select" name="wenhualv" default="无|国家级|省市级|校级|院级" size="" >级别</item>
+			<item relevance="2" type="select" name="wenhuaelse" default="无|其他|负责人|排名2~3" size="" >其他</item>
+		</socia>
+		
+		<socia title="xueshulunwen" name="学术论文" maxcol="4">
+			<item relevance="1" type="txt" name="msg" style="font-size:14px; color:#8E8C8C;" size="" >请如实准确填写以下信息以便审核</item>
+			<item relevance="2" type="text" tips="" name="lunwentitle" default="" maxlen="" size="" unit="" >标题</item>
+			<item relevance="2" type="select" name="luwenlv" default="无|SCI、EI收录|国家核心期刊|省级核心期刊" size="" >等级</item>
+			<item relevance="2" type="text" tips="" name="luwenpeople" default="" maxlen="2" size="2" unit="人" >人数</item>
+			<item relevance="2" type="checkbox" name="lunwenfirst" default="" size="" >第一作者</item>
+		</socia>
+		
+		<socia title="zizhucy" name="自主创业" maxcol="2">
+			<item relevance="1" type="txt" name="msg" style="font-size:14px; color:#8E8C8C;" size="" >请如实准确填写以下信息以便审核</item>
+			<item relevance="2" type="text" tips="" name="chuangyetitle" default="" maxlen="" size="" unit="" >项目</item>
+			<item relevance="2" type="text" tips="" name="chuangyeziping" default="" maxlen="3" size="2" unit="分" >自评分</item>
+		</socia>
+	</box>
+</page>

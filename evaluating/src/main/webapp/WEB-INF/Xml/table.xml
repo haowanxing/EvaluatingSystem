@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Ceping>
+	<Category1 title="基本素质测评" item="false">
+		<Category2 title="品德测评" item="false">
+			<Category3 title="思想政治表现" item="true" min="0" max="15" value="15" name="sixiangzhengzhi" />
+			<Category3 title="学习态度" item="true" min="0" max="25" value="25" name="xuexitaidu" />
+			<Category3 title="遵纪守法" item="true" min="0" max="15" value="15" name="zunjishoufa" />
+			<Category3 title="文明素养" item="true" min="0" max="15" value="15" name="wenmingsuyang" />
+			<Category3 title="加分项" item="true" min="0" max="20" sid="pjiafen" />
+			<Category3 title="扣分项" item="true" sid="pkoufen" />
+		</Category2>
+		<Category2 title="课程学习成绩测评" item="false" >
+			<Category3 title="自动分数" item="true" sid="" name="chengjiceping" />
+		</Category2>
+	</Category1>
+	<Category1 title="发展素质测评" item="false">
+		<Category2 title="能力测评" item="false">
+			<Category3 title="技能加分" item="true" min="0" sid="skill" />
+			<Category3 title="社会工作加分" item="true" min="0" sid="job" />
+			<Category3 title="社会实践加分" item="true" min="0" sid="sociashijian" />
+			<Category3 title="青年志愿者活动加分" item="true" min="0" sid="teen" />
+			<Category3 title="文体活动加分" item="true" min="0" sid="wentihuodong" />
+		</Category2>
+		<Category2 title="创新测评" item="false">
+			<Category3 title="学科竞赛加分" item="true" min="0" sid="subjctpk" />
+			<Category3 title="校园文化活动、征文、论文评比、辩论赛" item="true" min="0" sid="wenhuahuodong" />
+			<Category3 title="科技发明(科研)成果加分" item="true" min="0" sid="keyan" />
+			<Category3 title="学术论文加分" item="true" min="0" sid="xueshulunwen" />
+			<Category3 title="自主创业加分" item="true" min="0" sid="zizhucy" />
+		</Category2>
+	</Category1>
+</Ceping>
+
